@@ -1,0 +1,43 @@
+# NOT TO DO LIST API
+
+@baseUrl =http://localhost:8000/api/v1/tasks
+
+
+### GET
+
+GET {{baseUrl}}
+
+### POST
+
+POST {{baseUrl}}
+Content-Type: application/json
+
+{
+
+"task":"Dreagasd",
+
+"hr":10,
+"type":"bad"
+
+}
+
+### UPDATE
+PATCH  {{baseUrl}}
+Content-Type: application/json
+
+{
+"_id":"66bda8ef3f72fb692a9df66c",
+"type":"bad"
+}
+
+
+### DELETE
+
+DELETE  {{baseUrl}}
+Content-Type: application/json
+
+[
+    "66bdb4d53f72fb692a9df680"
+]
+
+
